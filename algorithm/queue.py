@@ -13,6 +13,8 @@ class Queue:
 
     #O(1)
     def dequeue(self):
+        if self.size_queue()<1:
+            return -1
         data =self.queue[0]
         del self.queue[0]
         return data
