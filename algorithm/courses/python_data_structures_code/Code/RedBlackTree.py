@@ -1,4 +1,13 @@
+"""
+     
+"""
+
+
 class Color:
+    """
+        Represents the colors of the nodes cause the Nodes are either black or red
+
+    """
     RED = 1
     BLACK = 2
 
@@ -19,6 +28,11 @@ class RedBlackTree:
         self.root = None
 
     def insert(self, data):
+        """
+        when iserting nodes we will first check if the root node exist, if it does not exist we will use the data inserted as the root
+        node then check if we are note violating the red black tree 
+        Else we will insert the data
+        """
         if not self.root:
             self.root = Node(data)
             self.violate(self.root)
@@ -26,6 +40,7 @@ class RedBlackTree:
             self.insert_node(data, self.root)
 
     def insert_node(self, data, node):
+        ""
 
         if data < node.data:
             if node.left:

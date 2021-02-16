@@ -15,7 +15,7 @@ class AVLTree:
 
     def remove(self, data):
         if self.root:
-            self.remove_node(data, self.root)
+            self.remove_node(data, self.root) 
 
     def insert(self, data):
         if self.root is None:
