@@ -29,6 +29,6 @@ class BogoSort:
 if __name__ == '__main__':
 
     # it has O(N!) running time
-    algorithm = BogoSort([1, -4, 10, 5, 0, 1, 2, 3, 4, 5])
+    algorithm = BogoSort([1, -4, 10, 5, 0, 1, 2, 3, 4, -5])
     algorithm.sort()
     print(algorithm.nums)

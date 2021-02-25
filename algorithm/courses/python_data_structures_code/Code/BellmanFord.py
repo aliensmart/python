@@ -15,6 +15,7 @@ class Node:
         self.predecessor = None
         self.min_distance = float('inf')
 
+        
 
 class BellmanFordAlgorithm:
 
@@ -116,4 +117,4 @@ if __name__ == '__main__':
 
     algorithm = BellmanFordAlgorithm(vertices, edges, node1)
     algorithm.find_shortest_path()
-    algorithm.get_shortest_path(node7)
+    algorithm.get_shortest_path(node6)

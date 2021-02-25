@@ -132,5 +132,5 @@ if __name__ == "__main__":
 
     # we just have to run the application
     algorithm = DijkstraAlgorithm()
-    algorithm.calculate(node1)
-    algorithm.get_shortest_path(node6)
+    algorithm.calculate(node2)
+    algorithm.get_shortest_path(node3)
