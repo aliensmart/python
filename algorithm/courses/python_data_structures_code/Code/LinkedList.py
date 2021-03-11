@@ -1,5 +1,4 @@
 class Node:
-
     def __init__(self, data):
         self.data = data
         self.next_node = None
@@ -8,8 +7,8 @@ class Node:
 class LinkedList:
 
     def __init__(self):
-        self.head = None
-        self.num_of_nodes = 0
+        self.head = None #When a node is created set the 
+        self.num_of_nodes = 0 #set number of node to 0
 
     # O(1)
     def insert_start(self, data):
